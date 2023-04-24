@@ -24,6 +24,7 @@ git clone https://github.com/prakash-aathi/E-Mask-Metric.git
 - Note : In live dashboard value readings are static ! when the hardware kit powered up the values are show up.
 
 ![register page](asserts/register.jpg)
+![Login page](asserts/login.jpg)
 ![dashboard page](asserts/dashboard.jpg)
 ![update page](asserts/update.jpg)
 ![about page](asserts/about.jpg)
