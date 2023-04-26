@@ -81,9 +81,9 @@ const Profile = () => {
                 <p className="text-justify font-bold text-lg">City</p>
               </div>
               <div>
-                <p className="font-bold text-lg">{form.name}</p>
-                <p className="font-bold text-lg">{form.email}</p>
-                <p className="font-bold text-lg">{form.maskId}</p>
+                <p className="font-bold text-lg">{form.name === "" ? <Button/> : form.name}</p>
+                <p className="font-bold text-lg">{form.email === "" ? <Button/> : form.email}</p>
+                <p className="font-bold text-lg">{form.maskId === "" ? <Button/> : form.maskId}</p>
                 <p className="font-bold text-lg">
                   {form.mobileNumber === "" ? <Button/> : form.mobileNumber}
                 </p>

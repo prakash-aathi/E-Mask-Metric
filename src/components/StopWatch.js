@@ -118,7 +118,7 @@ useEffect(() => {
             }
           </div>
         </div>
-        {timer.s >= 10 && <div>
+        {timer.s >= localStorage.mask && <div>
           <p className='text-lg text-red-500'>You used mask more than 8 hours. Please disInfect the mask</p>
         </div>}
       </div>

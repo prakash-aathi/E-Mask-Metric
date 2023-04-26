@@ -9,6 +9,7 @@ export const getUserData = () => {
 
 export const removeUserData = () => { 
     localStorage.removeItem('idToken');
+    localStorage.removeItem('email');
 }
 
 export const storeTime = (time) => {

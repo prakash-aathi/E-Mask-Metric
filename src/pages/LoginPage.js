@@ -42,6 +42,7 @@ function LoginPage() {
             LoginAPi(inputs).then((res) => {
                 storeUserDate(res.data.idToken)
                 localStorage.setItem('email', inputs.email);
+                localStorage.setItem('mask',10)
             }).catch((err) => {
                 console.log(err)
                 if (err.response.data.error.message === "EMAIL_NOT_FOUND") {

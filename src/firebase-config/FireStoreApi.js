@@ -1,7 +1,4 @@
-import {
-    collection, addDoc,
-    doc, getDoc, getDocs, query, where, updateDoc, setDoc
-} from "firebase/firestore"; 
+import {collection, doc, getDoc,  updateDoc, setDoc} from "firebase/firestore"; 
 import { db } from "./FirestoreConfig";
 
 const userCollectionRef = collection(db, "users");
@@ -43,6 +40,12 @@ class UserDataService{
         return getDoc(bookDoc);
       };
 
+    updateSettings = async(id, data) => { 
+        const prevdata = await this.getUser(id);
+        const newData = { ...prevdata.data(), ...data };
+        console.log(newData);
+        this.updateUsers(id, newData);
+    }
 
 }
 
