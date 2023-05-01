@@ -23,11 +23,11 @@ git clone https://github.com/prakash-aathi/E-Mask-Metric.git
 - Live [https://prakash-aathi.github.io/E-Mask-Metrics/]
 - Note : In live dashboard value readings are static ! when the hardware kit powered up the values are show up.
 
-![register page](asserts/register.jpg)
-![Login page](asserts/login.jpg)
-![dashboard page](asserts/dashboard.jpg)
-![update page](asserts/update.jpg)
-![about page](asserts/about.jpg)
+![register page](images/register.jpg)
+![Login page](images/login.jpg)
+![dashboard page](images/dashboard.jpg)
+![update page](images/update.jpg)
+![about page](images/about.jpg)
 
 ## Contributing
 Contributions to the project are welcome and encouraged! If you are interested in contributing, please follow the standard GitHub workflow by forking the repository, creating a branch for your changes, making your changes, and submitting a pull request.
